@@ -62,7 +62,7 @@ repos:
 
 # Changes tabs to spaces
 - repo: https://github.com/Lucas-C/pre-commit-hooks
-  rev: "v1.3.0"
+  rev: "v1.3.1"
   hooks:
   - id: remove-tabs
 
@@ -144,7 +144,7 @@ repos:
 
 # Check for spelling
 - repo: https://github.com/codespell-project/codespell
-  rev: "v2.1.0"
+  rev: "v2.2.1"
   hooks:
   - id: codespell
     exclude: ".supp$"
