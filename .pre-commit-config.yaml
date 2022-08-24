@@ -148,7 +148,7 @@ repos:
   hooks:
   - id: codespell
     exclude: ".supp$"
-    args: ["-L", "nd,ot,thist"]
+    args: ["-L", "nd,ot,thist,intstruct,ro"]
 
 # Check for common shell mistakes
 - repo: https://github.com/shellcheck-py/shellcheck-py
